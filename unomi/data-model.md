@@ -6,7 +6,7 @@ Official documentation: https://unomi.apache.org/manual/latest/#_data_model_over
 
 ## Scope
 
-域, 举例来说, 域的值可以是是 CMS 的域名, 用作划分业务. 系统默认值是 `systemscope` , 表示所有域共享的内容.
+域, 举例来说, 域的值可以是 CMS 的域名, 用作划分业务. 系统默认值是 `systemscope` , 表示所有域共享的内容.
 
 ## Item
 
