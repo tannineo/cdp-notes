@@ -1,6 +1,6 @@
 # Data Model of Unomi
 
-![Data model overview](/unomi/data-model-overview.jpg)
+![Data model overview](./data-model-overview.jpg)
 
 Official documentation: https://unomi.apache.org/manual/latest/#_data_model_overview
 
