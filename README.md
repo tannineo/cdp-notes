@@ -31,6 +31,7 @@ CDP 行业的大公司. 感觉技术团队在日本, 他们的开源项目基本
 
 (但还是有些参考价值, 许多工具都涉及了大规模的数据转移或者查询)
 
+- [CDP concepts](./treasuredata/concepts.md)
 - [Opensourced projects](./treasuredata/opensourced.md)
 
 ## RudderStack
