@@ -31,7 +31,7 @@ CDP 行业的大公司. 感觉技术团队在日本, 他们的开源项目基本
 
 (但还是有些参考价值, 许多工具都涉及了大规模的数据转移或者查询)
 
-- [CDP concepts](./treasuredata/concepts.md)
+- [CDP concepts by TreasureData](./treasuredata/concepts.md)
 - [Opensourced projects](./treasuredata/opensourced.md)
 
 ## RudderStack
@@ -39,3 +39,23 @@ CDP 行业的大公司. 感觉技术团队在日本, 他们的开源项目基本
 号称开源 CDP 领头羊.
 
 - [Architecture Overview](./rudder/arch.md)
+
+## Tracardi
+
+三个 repo:
+
+- [Tracardi/tracardi](https://github.com/Tracardi/tracardi): 包含了 model 定义和 elasticsearch 的交互, 里面的`domain`文件夹里包含了定义
+  - 学到了很实用的库: `pydantic`
+- [Tracardi/tracardi-api](https://github.com/Tracardi/tracardi-api): 接收 event, 提供 api
+  - http 框架是 fastapi
+- [Tracardi/tracardi-gui](https://github.com/Tracardi/tracardi-gui): react, workflow 的 gui 很有意思
+
+tracardi 有这么几个概念:
+
+- Event
+- Profile (也有 merge 的操作)
+- Consent (用户同意条款)
+
+tracardi 并不基于传统数据库, 而是 elasticsearch.
+
+我有种感觉, tracardi 是 Unomi 的 python 版本.
